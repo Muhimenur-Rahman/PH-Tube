@@ -1,0 +1,104 @@
+@media (min-width : 1200px)
+{
+    body {
+        background-image: url("./Resources/plain-smooth-green-wall-texture.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .accordion {
+        padding-top: 100px;
+        margin: auto;
+    }
+    
+    .accordion-item {
+        background-color: rgba(0, 0, 0, 0); 
+        border: none; 
+    }
+    
+    .accordion-header , .accordion-button {
+        background-color: rgba(38, 0, 255, 0.114);
+        color: #fff;
+        border: none; 
+        font-size: 20px;
+        border-radius: 40px;
+        margin-top: 10px;
+    }
+    
+    .accordion-body {
+        background-color: rgba(255, 255, 255, 0.2); 
+        color: #fff;
+        font-size: 15px;
+    }
+    .home{
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .home_btn{
+        padding: 10px 40px;
+        background-color: rgb(0, 115, 255);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+    }
+    li::marker{
+        color: #53B4D3;
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width : 319px) and (max-width : 550px)
+{
+    body {
+        background-image: url("./Resources/plain-smooth-green-wall-texture.jpg");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .blog{
+        margin-top: 20px;
+    }
+    .accordion-item {
+        background-color: rgba(0, 0, 0, 0); 
+        border: none; 
+    }
+    
+    .accordion-header , .accordion-button {
+        background-color: rgba(38, 0, 255, 0.114);
+        color: #fff;
+        border: none; 
+        font-size: 20px;
+        border-radius: 40px;
+        margin-top: 10px;
+    }
+    
+    .accordion-body {
+        background-color: rgba(255, 255, 255, 0.2); 
+        color: #fff;
+        font-size: 15px;
+    }
+    .home{
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .home_btn{
+        padding: 10px 40px;
+        background-color: rgb(0, 115, 255);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+    }
+    li::marker{
+        color: #53B4D3;
+        font-size: 20px;
+    } 
+}
